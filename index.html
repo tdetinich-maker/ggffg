@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мій перший сайт на хостингу — 11 клас</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="badge">Практична робота • 11 клас</span>
+      <h1>Хостинг сайту та взаємодія «Клієнт — Сервер»</h1>
+      <p class="subtitle">
+        Навчальна сторінка для тестування публікації та аналізу HTTP-запитів у браузері.
+      </p>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="card">
+      <h2>Як працює взаємодія клієнта й сервера?</h2>
+      <p>
+        Коли ви вводите адресу сайту в браузері (<strong>клієнт</strong>), формується запит,
+        який прямує до <strong>сервера</strong> (де зберігаються файли проєкту — наприклад,
+        <code>index.html</code> і <code>style.css</code>). Сервер повертає відповідь із кодом
+        стану (наприклад, <code>200 OK</code>) та передає ресурси для відображення сторінки.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>1. Клієнт (Браузер)</h3>
+        <p>
+          Надсилає HTTP/HTTPS-запити, приймає HTML, CSS та JS, кешує статичні файли і
+          малює інтерфейс на екрані.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>2. Хостинг і Сервер</h3>
+        <p>
+          Хостинг надає дисковий простір і мережеву інфраструктуру, а вебсервер віддає
+          потрібні файли за запитом користувача.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>3. Перевірка у DevTools</h3>
+        <p>
+          Відкрийте <code>F12 → Network</code>, оновіть сторінку та перевірте статуси,
+          розмір файлів і роботу кешу.
+        </p>
+      </article>
+    </section>
+
+    <section class="card info-box">
+      <h2>Завдання для модифікації шаблону</h2>
+      <ul>
+        <li>Змініть заголовок сторінки та додайте власне ім'я й клас у підвалі.</li>
+        <li>Відредагуйте кольорову схему або шрифти у файлі <code>css/style.css</code>.</li>
+        <li>Завантажте папку проєкту на обраний безкоштовний хостинг і перевірте доступність за посиланням.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Автор: Учень / Учениця 11 класу</span>
+      <span>Статус: Готово до публікації</span>
+    </div>
+  </footer>
+</body>
+</html>
